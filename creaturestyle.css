@@ -1,0 +1,108 @@
+body {
+    background-color: lightblue;
+}
+  
+.wrapper {
+    position: absolute;
+    left: 100px;
+    top: 75px;
+    width: 510px;
+}
+  
+#outermushroom {
+    position: relative;
+    background-color: #d02c33;
+    width: 500px;
+    height: 400px;
+    left: 0;
+    top: 0;
+    border-top-left-radius: 250px 225px;
+    border-top-right-radius: 250px 225px;
+    border-bottom-left-radius: 250px 175px;
+    border-bottom-right-radius: 250px 175px;
+    border: 5px solid black;
+    z-index: 0;
+    overflow: hidden;
+}
+  
+.leftdot {
+    position: relative;
+    height: 250px;
+    width: 200px;
+    left: -135px;
+    top: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+  
+.rightdot {
+    position: relative;
+    height: 250px;
+    width: 200px;
+    left: 435px;
+    top: -220px;
+    background-color: white;
+    border-radius: 50%;
+}
+  
+.centerdot {
+    position: relative;
+    height: 200px;
+    width: 250px;
+    margin: auto;
+    top: -475px;
+    background-color: white;
+    border-radius: 50%;
+}
+  
+#innermushroom {
+    z-index: 1;
+    position: relative;
+    width: 324px;
+    height: 175px;
+    top: -120px;
+    margin: auto;
+    background-color: #f5ddc1;
+    border-bottom-left-radius: 162px 100px;
+    border-bottom-right-radius: 162px 100px;
+    border-top-left-radius: 162px 75px;
+    border-top-right-radius: 162px 75px;
+    border: 5px solid black;
+}
+  
+#eyes {
+    position: relative;
+    width: 160px;
+    height: 75px;
+    top: 20px;
+    margin: auto;
+}
+  
+.lefteye {
+    position: relative;
+    float: left;
+    background-color: black;
+    width: 30px;
+    height: 75px;
+    border-radius: 50%;
+}
+  
+.righteye {
+    position: relative;
+    float: right;
+    background-color: black;
+    width: 30px;
+    height: 75px;
+    border-radius: 50%;
+}
+  
+.whites {
+    z-index: 2;
+    position: relative;
+    background-color: white;
+    width: 10px;
+    height: 20px;
+    margin: auto;
+    top: 5px;
+    border-radius: 50%;
+}
